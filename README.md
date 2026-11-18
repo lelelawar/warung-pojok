@@ -79,3 +79,18 @@ This repository is maintained for learning Laravel development.
 
 This project is continuously improved
 to practice web development and application management.
+
+## Installation
+
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Install dependencies using Composer.
+4. Copy `.env.example` to `.env`.
+5. Configure the database.
+6. Run database migrations.
+7. Start the Laravel development server.
+
+## Development
+
+This project is built using Laravel and PHP.
+It uses MySQL as the database.
