@@ -82,13 +82,29 @@ to practice web development and application management.
 
 ## Installation
 
-1. Clone this repository.
-2. Navigate to the project directory.
-3. Install dependencies using Composer.
-4. Copy `.env.example` to `.env`.
-5. Configure the database.
-6. Run database migrations.
-7. Start the Laravel development server.
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/lelelawar/warung-pojok.git
+cd warung-pojok
+composer install
+php artisan key:generate
+php artisan migrate
+php artisan serve
+
+
+Ini lebih informatif karena pembaca bisa langsung mengikuti command-nya.
+
+### Setelah diedit
+
+1. Scroll ke bawah.
+2. Commit message: `docs: improve installation guide`
+3. Commit ke branch `docs-add-setup-guide`.
+4. Klik **Commit changes**.
+
+Kalau sudah diedit dan di-commit, kirim screenshot. Kita lanjut bikin PR kedua dan merge buat target Pull Shark 🦈.
 
 ## Development
 
